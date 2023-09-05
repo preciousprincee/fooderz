@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <nav class=" nav relative  pt-3 pl-4  h-84 bg-gradient-to-r from-sky-500 to-indigo-500 md:mx-0  md:block">
+        <div class="flex items-center justify-between ">
+            <div class="pt-2" >
+                <h3 class="font-bold mb-6 text-green-400">
+                    APEX FOODERZ
+                </h3>
+            </div>
+            <div class="hidden md:flex space-x-6">
+                <a href="#" class="hover:bg-red-50 ">Home</a>
+                <a href="#" class="hover:bg-red-50 ">Manu</a>
+                <a href="#" class="hover:bg-red-50 ">Contact us</a>
+                <a href="#" class="hover:bg-red-50    ">About us</a>
+            </div>
+            <a href="#" class="hidden md:block p-3 px-6 pt-2 text-white bg-blue-500 rounded-full baseline hover:bg-gray-900"> GET STARTED</a>
+
+            <bottton id="mune-btn" class="block humburger md:hidden focus:outline-none">
+                <span class="humburger-top"></span>
+                <span class="humburger-middle"></span>
+                <span class="humburger-buttom"></span>
+            </bottton>
+
+        </div>
+        <div class="md:hidden">
+            <div id="menu" class="absolute flex flex-col items-center self-end py-8 mt-10 hidden space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+                <a href="#" class="hover:bg-red-50 ">Home</a>
+                <a href="#" class="hover:bg-red-50 ">Manu</a>
+                <a href="#" class="hover:bg-red-50 ">Contact us</a>
+                <a href="#" class="hover:bg-red-50 ">About us</a>
+            </div>
+        </div>
+
+    </nav>
+
+   
+    <section id="sec1" class="bg-[url('./img/bg1.jpeg')]  bg-cover max-w-70xl">
+        <div class="flex flex-col  md:space-y-0 item-center md:flex-row px-6 mx-auto">
+            <div class="flex flex-col mt--2 mb-22 space-y-12 md:w-1/2 md:px-20 ">
+                
+                <h1 class="max-w-md text-4xl font-bold text-center pt-40 brightness-50 md:text-left"> 
+                    A Chef In Every<br>Tasty Meal Box
+                </h1>
+                <h5 class="max-w-md font-bold text-center brightness-100 md:text-left mx-0 ml-0">
+                    Get pre-portion ingredent for Apex Fooderz Kitsbest recipes delivered to your door step
+                </h5>
+                <div class="flex justify-center md:justify-start  ">
+                    <a href="#" class=" p-3 px-6 pt-2 text-white bg-blue-500 rounded-full baseline hover:bg-gray-900"> GET STARTED</a>
+                </div>
+               
+
+            </div>
+            <div class="md:W-1/2 rounded-l-30">
+                <img src="./img/IMG_20211101_054538.jpg" alt="" srcset="" height="50px" width="500px" class="mt-20 mb-20 w-200 h-300 rounded-full"> 
+
+            </div>
+
+        </div>
+    </section>
+    <section id="sec2" class="bg-blue-500 max-w-70xl">
+        <div class="container flex py-20 flex-col mx-auto space-y-0 space-x-0 md:space-y-0   md:w-2/2 md:flex-row-reverse ">
+            <div class="flex flex-col space-y-12 text-center md:space-y-2 md:w-1/2 md:px-20">
+                <h6 class="max-w-sm font-bold mx-auto text-center mt-20 md:mx-0 md:text-left">
+                    Welcome to our
+                </h6>
+                <h1 class="max-w-md text-4xl mx-auto font-bold text-center pt-0 text-green-500 md:mx-0 md:text-left">
+                    Restaurant
+                </h1>
+                <p class="max-w-md font-bold text-center mx-auto pt-3 md:mx-0  md:text-left">
+                    At Apexfooderz, we bring you the same wonderful experiences
+                    we grow up on from our worm Nigerian hospitality , to the authentic aromas
+                    in our open kitchen to our flavorful handmade recipes passed down for
+                    more than four generations.  
+                </p>
+            </div>
+            <div class="md:w-1/2 space-y-12 flex flex-col  md:mt-107 ">
+                <img src="./img/images (4).jpeg"m alt="" srcset="" height="500px" width="400px" class=" mx-auto my-5  rounded-full md:pl-4 md:pt-0 "> 
+
+            </div>
+        </div>
+    </section>
+    <section id="sec3"class=" max-w-70xl pt-10">
+        <div class="max-w-6xl px-5 mx-auto  text-center">
+            <h2 class="text-4xl mt-14 font-bold text-center text-green-300 brightness-50">
+                OUR SPECIALITIES
+            </h2>
+            <div class="flex flex-col w-50 mt-5 md:flex-row md:space-x-6">
+                <div class="flex flex-col item-center p-6 shadow-xl  space-y-6 md:hover:shadow-2xl ">
+                    <img src="./img/IMG_20211101_063111.jpg" alt="" class="w-50 mt-14"> 
+                    <p class="font-bold bg-yellow-100">RICE AND CHICKEN WITH DODO</p>
+                </div>
+                <div class="flex flex-col item-center p-6 shadow-xl  space-y-6  md:hover:shadow-2xl">
+                    <img src="./img/IMG_20211101_054623.jpg" alt="" class="w-50 mt-14"> 
+                    <p class="font-bold bg-yellow-100">SPAGETTI AND VEGES WITH MEAT</p>
+                </div>
+                <div class="flex flex-col item-center p-6 shadow-xl  space-y-6  md:hover:shadow-2xl">
+                    <img src="./img/IMG_20211101_063144.jpg" alt="" class="w-50 mt-14"> 
+                    <p class="font-bold bg-yellow-100">MACARONI CHEESE</p>
+                </div>
+                <div class="flex flex-col item-center p-6 shadow-xl  space-y-6  md:hover:shadow-2xl">
+                    <img src="./img/IMG_20211101_054559.jpg" alt="" class="w-50 mt-14"> 
+                    <p class="font-bold bg-yellow-100">RICE AND TURKEY WITH SALAD</p>
+                </div>
+            </div>
+            <div class="mx-auto my-10">
+                <a href="#" class=" p-3 px-6 pt-2 text-white bg-blue-500 rounded-full baseline hover:bg-gray-900 ">SEE MORE</a>
+            </div>
+        </div>
+    </section>
+    <section id="cta" class="bg-blue-700">
+        <div class="container flex flex-col items-center justify-between px-6 py-24 mx-auto space-y-12 md:py-12 md:flex-row  md:max-w-6xl md:space-y-0">
+            <h2 class="text-5xl font-bold leading-tight left text-center text-white md:text-4xl
+             md:text-left">
+                Get the best of your favorite meals today.
+            </h2>
+            <div class="mx-auto  my-10">
+                <a href="#" class=" p-3 px-6 pt-2 text-blue-500 bg-white sm:w-6 rounded-full baseline hover:bg-gray-900 shadow-2xl">SEE MENU</a>
+            </div>
+
+        </div>
+       
+    </section>
+    <footer class="bg-blue-900">
+        <div class="container flex flex-col-reverse justify-betweeen px-6 py-10 mx-auto space-y-8 md:flex-row md:space-y-0">
+           <div class="flex flex-col item-center justify-between space-y-0 md:space-y-0 items-start">
+              <div>
+                <h3 class="font-bold mb-6 text-green-400">
+                    APEX FOODERZ
+                </h3>
+              </div> 
+              <div class="flex justify-center space-x-1">
+                  <div class=" my-6 text-center text-white md:hidden">
+                      Copyright &copy; 2023
+                  </div>
+                   
+              </div>    
+           </div>  
+           <div class="flex justify-around space-x-40">
+               <div class="flex flex-col space-y-3">
+                    <a href="" class="hover:text-gray-300">home</a>
+                    <a href="" class="hover:text-gray-300">Menu</a>
+                    <a href="" class="hover:text-gray-300">Contact us</a>
+                    <a href="" class="hover:text-gray-300">about us</a>
+               </div>
+               <div class="flex flex-col space-y-3">
+                    <a href="" class="hover:text-gray-300">home</a>
+                    <a href="" class="hover:text-gray-300">Menu</a>
+                    <a href="" class="hover:text-gray-300">Contact us</a>
+                    <a href="" class="hover:text-gray-300">about us</a>
+               </div>
+           </div>
+         <form action="">
+            <div class="flex flex-col justify-between md: flex-row">
+                <input type="text" class="flex px-4 rounded-full focus:outline-none" placeholder="update in your in box"
+                
+                >
+                <button class="px-6 py-2 text-white text-center rounded-full bg-blue-500 w-1 hover:bg-gray-900">
+                    go
+                </button>
+            </div>
+         </form>
+         
+        </div>
+        <div class="hidden text-center text-white md:block">
+            Copyright &copy; 2023
+        </div>
+    </footer>
+</body>
+</html>
